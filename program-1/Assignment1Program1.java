@@ -14,7 +14,6 @@
     Scanner scan = new Scanner(System.in);
     System.out.println("Please enter a 5-character string:"); 
     message = scan.nextLine(); 
-    System.out.print("Processed string: ");
         String Duc = "" + message.charAt(3) + message.charAt(2) + message.charAt(1);
         System.out.println("Please enter a number in Fahrenheit:");
         double fahrenheit = scan.nextDouble();
