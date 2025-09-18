@@ -19,7 +19,7 @@
         System.out.println("Please enter a number in Fahrenheit:");
         double fahrenheit = scan.nextDouble();
         int Tran; 
-        double celsius = ( fahrenheit - 32) * 5/9;
+        double celsius = ( fahrenheit - 32) * 5.0/9.0;
         Random Kaden = new Random(); 
         Tran = 32 + Kaden.nextInt(16384-32+1); 
         System.out.println("Random number generated. Continuing...");
